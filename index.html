@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mohammad Abrar | Accessible Web Developer Portfolio</title>
+  <meta name="description" content="Personal portfolio of Mohammad Abrar, featuring accessible, semantic and responsive web development projects.">
+  <meta name="keywords" content="web developer, HTML5, CSS3, JavaScript, accessibility, portfolio">
+  <meta name="author" content="Mohammad Abrar">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://example.com/">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="navbar" aria-label="Primary navigation">
+      <a class="brand" href="index.html" aria-label="Mohammad Abrar home">YN<span>.</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-menu">
+        <span class="sr-only">Toggle navigation</span>☰
+      </button>
+      <ul id="primary-menu" class="nav-menu">
+        <li><a aria-current="page" href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" aria-labelledby="hero-title">
+      <div>
+        <p class="eyebrow">Web Developer Portfolio</p>
+        <h1 id="hero-title">Hello, I'm <span>Mohammad Abrar</span></h1>
+        <p class="lead">I build responsive, semantic and accessible web experiences using modern front-end technologies.</p>
+        <div class="actions">
+          <a class="button" href="projects.html">View Projects</a>
+          <a class="button button-outline" href="contact.html">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-card" aria-label="Accessibility-focused portfolio">
+        <div class="code-symbol" aria-hidden="true">&lt;/&gt;</div>
+        <p>Semantic HTML5</p>
+        <p>WCAG-minded UI</p>
+        <p>Responsive Design</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="about-preview">
+      <p class="eyebrow">About Me</p>
+      <h2 id="about-preview">Building for people, not just screens</h2>
+      <p class="section-intro">This portfolio demonstrates semantic structure, accessible navigation, clear content hierarchy, responsive layouts and an accessible contact form.</p>
+      <a class="text-link" href="about.html">Read more about me →</a>
+    </section>
+
+    <section class="section section-alt" aria-labelledby="featured-title">
+      <p class="eyebrow">Featured Work</p>
+      <h2 id="featured-title">Selected projects</h2>
+      <div class="card-grid">
+        <article class="card">
+          <h3>Accessible Portfolio</h3>
+          <p>A multi-page portfolio built with semantic HTML5 and accessibility best practices.</p>
+          <a href="projects.html">View project →</a>
+        </article>
+        <article class="card">
+          <h3>Responsive Landing Page</h3>
+          <p>A mobile-first interface with structured content and keyboard-friendly controls.</p>
+          <a href="projects.html">View project →</a>
+        </article>
+        <article class="card">
+          <h3>Contact Form UI</h3>
+          <p>An accessible form using explicit labels, required states and helpful validation.</p>
+          <a href="contact.html">Try the form →</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Mohammad Abrar. Built with semantic HTML5.</p>
+    <a href="#main-content">Back to top ↑</a>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
