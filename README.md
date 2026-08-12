@@ -23,14 +23,4 @@ Multi-page personal portfolio website built using semantic HTML5, CSS3 and vanil
 4. Skills
 5. Contact
 
-## Before submission
-Replace:
-- `Mohammad Abrar`
-- `mohdabrar@example.com`
-- `Tirupattur, Tamil Nadu, India`
-- `https://example.com/`
 
-with your actual details.
-
-## How to run
-Open `index.html` in a browser. No server or framework is required.
